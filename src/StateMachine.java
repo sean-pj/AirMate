@@ -1,4 +1,4 @@
-package WeatherStation;
+package WeatherStation.src;
 
 import com.fazecast.jSerialComm.SerialPort;
 import java.io.IOException;

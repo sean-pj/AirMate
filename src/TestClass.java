@@ -1,4 +1,4 @@
-package WeatherStation;
+package WeatherStation.src;
 
 import com.fazecast.jSerialComm.SerialPort;
 import org.firmata4j.Pin;

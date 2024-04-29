@@ -1,4 +1,4 @@
-package WeatherStation;
+package WeatherStation.src;
 
 import org.firmata4j.IODeviceEventListener;
 import org.firmata4j.IOEvent;

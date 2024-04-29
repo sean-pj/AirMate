@@ -1,4 +1,4 @@
-package WeatherStation;
+package WeatherStation.src;
 
 import edu.princeton.cs.introcs.StdDraw;
 
@@ -66,7 +66,7 @@ public class GraphUpdate extends TimerTask {
             double convertedQuality = slope * ((double)MainClass.airQualPin.getValue() - 37);
             //Updates graph data
             yAirData.addFirst((int) convertedQuality);
-            yTempData.addFirst((int)ReadSerial.getTempHumArray()[1]);
+            yTempData.addFirst((int) ReadSerial.getTempHumArray()[1]);
             yHumData.addFirst((int)ReadSerial.getTempHumArray()[0]);
             //Displays graph data
             airQualGraph.drawGraph(xAirData, yAirData);

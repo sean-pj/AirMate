@@ -1,4 +1,4 @@
-package WeatherStation;
+package WeatherStation.src;
 
 import org.firmata4j.ssd1306.SSD1306;
 

@@ -1,4 +1,4 @@
-package WeatherStation;
+package WeatherStation.src;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;

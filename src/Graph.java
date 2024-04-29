@@ -1,4 +1,4 @@
-package WeatherStation;
+package WeatherStation.src;
 
 import edu.princeton.cs.introcs.StdDraw;
 
