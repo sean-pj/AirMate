@@ -1,7 +1,7 @@
 # WeatherStation
 Indoor and Outdoor Weather Station. Monitors Indoor air quality, temperature and humidity using sensors. Also monitors outdoor weather data from the Open-Mateo API.
 Reactively turns on a servo motor, to turn a fan on and off in response to this data.
-#Technical Specifications
+# Technical Specifications
 ## Hardware
 * Arduino grove board hardware to control MQ135 and main state machine.
 * Arduino Nano used to control DHT22 and servo.
