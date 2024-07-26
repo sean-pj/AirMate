@@ -22,7 +22,7 @@ public class OledUpdate extends TimerTask {
 
     @Override
     public void run() {
-        //James Andrew Smith, 2024, EECS 1021 Lab G
+        //Inspired by James Andrew Smith, 2024
         //Updates OLED Board
         long airQual = MainClass.airQualPin.getValue();
         oledObj.clear();
