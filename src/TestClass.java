@@ -12,7 +12,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class TestClass {
-    //Learned in class from James Andrew Smith, EECS 1021
+    //Learned in class from James Andrew Smith, 2024
     @Test
     public void MQ135() throws IOException, InterruptedException {
         //Tests air quality sensor values, and ensures that air quality sensor logic for the oled board is functioning
