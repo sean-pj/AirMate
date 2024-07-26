@@ -1,5 +1,5 @@
-# WeatherStation
-Indoor and Outdoor Weather Station. Monitors Indoor air quality, temperature and humidity using sensors. Also monitors outdoor weather data from the Open-Mateo API.
+# Air Mate
+Automated air quality monitor and control system. Monitors indoor air quality, temperature and humidity using sensors. Also monitors outdoor weather data from the Open-Mateo API.
 Reactively turns on a servo motor, to turn a fan on and off in response to this data.
 # Technical Specifications
 ## Hardware
