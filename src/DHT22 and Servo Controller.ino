@@ -1,4 +1,3 @@
-//Beginning of referenced code
 //How to use DHT-22 Sensor - Arduino Tutorial, codebender_cc, approx 2015
 //https://www.instructables.com/How-to-use-DHT-22-sensor-Arduino-Tutorial/
 //Arduino Servo Motors, cornelam, approx 2015
