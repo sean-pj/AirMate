@@ -12,7 +12,6 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class TestClass {
-    //Learned in class from James Andrew Smith, 2024
     @Test
     public void MQ135() throws IOException, InterruptedException {
         //Tests air quality sensor values, and ensures that air quality sensor logic for the oled board is functioning
@@ -67,5 +66,4 @@ public class TestClass {
         assertTrue("Error: weather api returning incorrect values for temperature, or its really cold",WeatherAPI.getTemp() >= 0 && WeatherAPI.getTemp() < 50);
         assertTrue("Error: Weather api returning incorrect precipitation values",WeatherAPI.getPrecip() >= 0 && WeatherAPI.getPrecip() < 5);
     }
-    //End of referenced code
 }
