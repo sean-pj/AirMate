@@ -69,7 +69,6 @@ public class Graph {
     public void drawGraph(ArrayList<Integer> xData, ArrayList<Integer> yData) throws InterruptedException {
         /*
     Draws and displays a graph using StdDraw from the princeton standard library.
-    Similar to my EECS 1021 Main Project to save on time. Adjusted to allow for two separate graphs.
      */
 
         StdDraw.setXscale(xCanvasScale[0], xCanvasScale[1]); // x for the canvas (box)
