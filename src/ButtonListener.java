@@ -19,7 +19,7 @@ public class ButtonListener implements IODeviceEventListener {
 
     @Override
     public void onPinChange(IOEvent ioEvent) {
-        //James Andrew Smith, 2024 , EECS 1021, Lab H
+        //Learned in class from James Andrew Smith, 2024
         if (ioEvent.getPin().getIndex() == MainClass.buttonPin.getIndex()) {
             //Ends program on button press
             try {
